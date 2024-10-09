@@ -85,7 +85,7 @@ nav ul li {
     line-height: 26px;
 }
 
-#hero button{
+#hero button {
     background-color: black;
     color: white;
     font-family: Azeret Mono;
@@ -99,3 +99,69 @@ nav ul li {
 
     padding: 17px 24px 17px 24px;
 }
+
+/* Why Web Development section start */
+
+#web-dev {
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 154px;
+    border-radius: 16px;
+
+
+}
+
+.heading-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.heading-top h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.heading-top p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.high-light{
+    color: palevioletred;
+}
+
+/* 1st layer start */
+.coding {
+    margin-top: 98px;
+    height: 600px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+
+    margin-top: 50px;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.description {
+    /* justify-content: left; */
+}
+
+/* 1st layer end */
+
+
+/* Why Web Development section end */
