@@ -1,4 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
+/* import fonts from google */
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* webpage default margin/padding clean */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+
+/* .nav-title {
+    font-weight: 600px;
+    font-size: 45px;
+
+
+} */
+
+/* nav ul {
+    
+    text-decoration: none;
+    
+} */
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+/* nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black
+    
+} */
+.btn-download-resume {
+
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+
+    padding: 17px 24px 17px 24px;
+}
+
+. {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+   
+    
 }
