@@ -205,3 +205,23 @@ nav ul li {
     text-align: center;
 }
 /* Inspiration section end */
+/* My current target start */
+    .current-target-title{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+
+    }
+    .current-target-title p{
+        margin-top: 30px;
+    }
+    .target-container{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+    }
+
+/* My current target end */
