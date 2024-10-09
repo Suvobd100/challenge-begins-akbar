@@ -249,3 +249,18 @@ nav ul li {
         justify-content: center;
     }
 /* My Next target End*/
+
+/* support section start */
+.support-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.email-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+/* support section End */
