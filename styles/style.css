@@ -225,3 +225,27 @@ nav ul li {
     }
 
 /* My current target end */
+/* My Next target Start*/
+    .section-title{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .react-js{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .node-js{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .mongo-db{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+    }
+/* My Next target End*/
