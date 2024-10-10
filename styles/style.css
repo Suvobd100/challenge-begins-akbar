@@ -323,22 +323,48 @@ change button {
 }
 
 .y-contaner {
-   display: flex;
-   justify-content: center;
-   /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
+
 .y-contaner iframe {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 /* Inspiration section end */
 /* My current target start */
-.current-target-title {
+.current-target-heading {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.current-target-heading h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.current-target-heading p {
+    align-self: center;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 
 }
 
@@ -353,7 +379,63 @@ change button {
     margin-bottom: 25px;
 }
 
+.target-container h1 {
+    margin-top: 24px;
+    Font: Azeret Mono;
+    Font-weight: 800;
+    Font-size: 24px;
+
+}
+
+.target-container p {
+    margin-top: 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.para-text-current-target{
+    width: 400px;
+    height: 50px;
+    display: table;
+}
+
+ .one-ltr{
+    font-weight: bold;
+    
+    color: lightcoral;
+ }
+ .one-ltr-css{
+    font-weight: bold;
+   
+    color: lightblue;
+ }
+ 
+ .one-ltr-js{
+    font-weight: bold;
+    color:rgb(158, 158, 12);
+ }
+.target-container label {
+   
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+
 /* My current target end */
+
+
 /* My Next target Start*/
 .section-title {
     margin-top: 30px;
