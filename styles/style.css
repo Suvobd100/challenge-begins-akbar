@@ -291,7 +291,7 @@ nav ul li {
     line-height: 26px;
 }
 
-change button {
+.change button {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -399,29 +399,31 @@ change button {
     margin-bottom: 30px;
 }
 
-.para-text-current-target{
+.para-text-current-target {
     width: 400px;
     height: 50px;
     display: table;
 }
 
- .one-ltr{
+.one-ltr {
     font-weight: bold;
-    
+
     color: lightcoral;
- }
- .one-ltr-css{
+}
+
+.one-ltr-css {
     font-weight: bold;
-   
+
     color: lightblue;
- }
- 
- .one-ltr-js{
+}
+
+.one-ltr-js {
     font-weight: bold;
-    color:rgb(158, 158, 12);
- }
+    color: rgb(158, 158, 12);
+}
+
 .target-container label {
-   
+
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -438,42 +440,109 @@ change button {
 
 /* My Next target Start*/
 .section-title {
-    margin-top: 30px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
+.section-title h1 {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-title h4 {
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+
+.section-title p {
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* react */
+.img-deg {
+    float: left;
+    width: 5%;
+}
+
 .react-js {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+    margin-left: 25%;
+
 }
 
-.node-js {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+.react-js h1 {
+    margin-bottom: 10px;
+   
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
-.mongo-db {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+
+.react-js p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-deg {
+    /* width:10% */
+    margin-left: 20%;
+    margin-top: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.react-js h4 {
+    margin-top: 10px;
+    /* margin-left: 2%; */
+    margin-bottom: 10%;
 }
 
 /* My Next target End*/
 
 /* support section start */
-.support-container {
-    margin-top: 30px;
+#support {
+    margin-top: 10%;
+}
+
+/* .support-container {
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: red;
-}
+} */
 
 .email-container {
     /* width: 115px; */
@@ -485,6 +554,7 @@ change button {
 }
 
 .mail-inp {
+    background-color: blue;
     margin-top: 10px;
     height: 57px;
     width: 540px;
@@ -498,6 +568,7 @@ change button {
 }
 
 .btn-subc {
+    background-color: aqua;
     border: none;
     margin-top: 1px;
     height: 80px;
@@ -506,7 +577,7 @@ change button {
     padding-left: 5px;
     /* margin-top: ; */
     color: black;
-    background-color: white;
+    /* background-color: white; */
     font-size: 25px;
     /* border-radius: 0px     30px      30px           0px; */
     border-radius: 10px;
