@@ -545,6 +545,7 @@ nav ul li {
     align-items: center;
     padding-left: 600px;
     background-position: center;
+    border-radius: 5px;
 }
 
 .midnight-party-content h1 {
@@ -614,10 +615,15 @@ nav ul li {
 }
 
 .logo-container {
-    margin-right: 150px;
+    margin-right: 300px;
     margin-top: -50px;
     display: flex;
     justify-content: end;
+}
+/* extra added */
+.hyp-fot{
+    text-decoration: none;
+    color: black;
 }
 
 /* Footer end */
