@@ -197,15 +197,17 @@ nav ul li {
     display: table;
 
 }
+
 /* coding para end */
 
 /* coding button start */
-.coding button{
+.coding button {
     margin-top: 30px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
+
 /* coding button end */
- 
+
 /* 1st layer end */
 
 /* 2nd layer start */
@@ -221,6 +223,7 @@ nav ul li {
     margin-bottom: 30px;
 
 }
+
 /* modern h1 */
 .modern h1 {
     /* Font */
@@ -231,6 +234,7 @@ nav ul li {
     line-height: 36px;
 
 }
+
 /* modern pera  */
 
 .modern p {
@@ -245,9 +249,9 @@ nav ul li {
 
 }
 
-.modern button{
+.modern button {
     margin-top: 30px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
 
 /* 2nd layer end */
@@ -262,6 +266,7 @@ nav ul li {
     justify-content: space-around;
     margin-bottom: 30px;
 }
+
 /* change h1 */
 .change h1 {
     /* Font */
@@ -272,6 +277,7 @@ nav ul li {
     line-height: 36px;
 
 }
+
 /* font end */
 /* change pera  */
 
@@ -285,10 +291,11 @@ nav ul li {
     line-height: 26px;
 }
 
-change button{
+change button {
     margin-top: 30px;
-    margin-bottom:30px ;
+    margin-bottom: 30px;
 }
+
 /* 3rd layer end */
 /* Inspiration section start */
 .inspiration-container {
@@ -296,6 +303,32 @@ change button{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.inspiration-container h1 {
+    margin: 24px 0px;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+
+.inspiration-container p {
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.y-contaner {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+.y-contaner iframe {
+  border-radius: 10px;
 }
 
 /* Inspiration section end */
