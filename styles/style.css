@@ -33,13 +33,13 @@ nav ul li {
 
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
-    
+
     opacity: 0.8;
 
     padding: 17px 24px 17px 24px;
 }
 
-.btn-download-resume a{
+.btn-download-resume a {
     text-decoration: none;
     color: black;
 }
@@ -108,7 +108,7 @@ nav ul li {
     /* cursor: pointer; */
 }
 
-#hero button a{
+#hero button a {
     text-decoration: none;
     color: white;
 }
@@ -161,21 +161,57 @@ nav ul li {
 /* 1st layer start */
 .coding {
     margin-top: 98px;
-    height: 230px;
+    padding-top: 50px;
+    height: 400px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+
 }
 
-.description {
-    /* justify-content: left; */
+.coding h1 {
+    /* Font */
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+
 }
 
+.coding p {
+    /* Font */
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+
+}
+
+/* coding-para */
+.para-text-coding {
+    width: 400px;
+    height: 50px;
+    display: table;
+
+}
+/* coding para end */
+
+/* coding button start */
+.coding button{
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
+/* coding button end */
+ 
 /* 1st layer end */
 
 /* 2nd layer start */
-.modern{
+
+.modern {
     margin-top: 98px;
     height: 230px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
@@ -185,9 +221,10 @@ nav ul li {
     margin-bottom: 30px;
 
 }
+
 /* 2nd layer end */
 /* 3rd layer start */
-.change{
+.change {
     margin-top: 98px;
     height: 230px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
@@ -196,62 +233,70 @@ nav ul li {
     justify-content: space-around;
     margin-bottom: 30px;
 }
+
 /* 3rd layer end */
 /* Inspiration section start */
-.inspiration-container{
+.inspiration-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
+
 /* Inspiration section end */
 /* My current target start */
-    .current-target-title{
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        flex-direction: column;
+.current-target-title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 
-    }
-    .current-target-title p{
-        margin-top: 30px;
-    }
-    .target-container{
-        margin-top: 50px;
-        display: flex;
-        justify-content: space-around;
-        margin-bottom: 25px;
-    }
+}
+
+.current-target-title p {
+    margin-top: 30px;
+}
+
+.target-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
 
 /* My current target end */
 /* My Next target Start*/
-    .section-title{
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .react-js{
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .node-js{
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .mongo-db{
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-    }
+.section-title {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.react-js {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.node-js {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mongo-db {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
 /* My Next target End*/
 
 /* support section start */
-.support-container{
+.support-container {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -259,49 +304,57 @@ nav ul li {
     align-items: center;
     color: red;
 }
-.email-container{
+
+.email-container {
     /* width: 115px; */
-    height: 800px;
+    /* height: 800px; */
     /* margin-top: 30px; */
     display: flex;
     justify-content: center;
-    background-image: url("../assets/handshake.jpg");
+    /* background-image: url("../assets/handshake.jpg"); */
 }
+
 .mail-inp {
+    margin-top: 10px;
     height: 57px;
-    width:540px ;
-    font-size:25px;
-    border-radius: 5px; 
+    width: 540px;
+    font-size: 25px;
+    border-radius: 5px;
     border: none;
-    padding-left:10px;
+    padding-left: 10px;
     justify-content: center;
     text-align: center;
     /* background-color:rgb(255, 255, 255) */
 }
-.btn-subc{
-    border: none;    
+
+.btn-subc {
+    border: none;
     margin-top: 1px;
     height: 80px;
-    width:120px ;
+    width: 120px;
     margin-left: 5px;
     padding-left: 5px;
-    color:black;
-    /* background-color:white; */
+    /* margin-top: ; */
+    color: black;
+    background-color: white;
     font-size: 25px;
     /* border-radius: 0px     30px      30px           0px; */
     border-radius: 10px;
 }
+
 /* support section End */
 /* Footer start */
-#footer-section{
+#footer-section {
     margin-top: 120px;
     margin-bottom: 30px;
     margin-left: 150px;
 }
-.logo-container{
+
+.logo-container {
     margin-right: 150px;
-     margin-top: -50px;
+    margin-top: -50px;
     display: flex;
     justify-content: end;
 }
+
 /* Footer end */
